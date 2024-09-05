@@ -1,0 +1,54 @@
+Care,,,
+Variable,Coef,95% CI,p-value
+Intercept,0.144455643,"(0.142, 0.147)",0
+C(Source)[T.Human News],-0.000930402,"(-0.004, 0.002)",0.556389908
+C(Gender)[T.Woman],-0.005633295,"(-0.010, -0.001)",0.015795121
+C(Domination)[T.woman-Dominated],-0.000703368,"(-0.004, 0.003)",0.711471283
+C(Source)[T.Human News]:C(Gender)[T.Woman],0.00379164,"(-0.004, 0.011)",0.331158954
+C(Source)[T.Human News]:C(Domination)[T.woman-Dominated],0.003875429,"(-0.001, 0.009)",0.13999308
+C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.004011239,"(-0.003, 0.011)",0.278631975
+C(Source)[T.Human News]:C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.005042383,"(-0.006, 0.016)",0.378928798
+,,,
+,,,
+Fairness,,,
+Intercept,0.141821066,"(0.140, 0.143)",0
+C(Source)[T.Human News],-0.003241342,"(-0.006, -0.001)",0.005101112
+C(Gender)[T.Woman],-0.003846395,"(-0.007, -0.000)",0.024305704
+C(Domination)[T.woman-Dominated],-0.000449823,"(-0.003, 0.002)",0.746482091
+C(Source)[T.Human News]:C(Gender)[T.Woman],-0.000849507,"(-0.006, 0.005)",0.766042318
+C(Source)[T.Human News]:C(Domination)[T.woman-Dominated],-0.001564306,"(-0.005, 0.002)",0.415570222
+C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.00141604,"(-0.004, 0.007)",0.601189892
+C(Source)[T.Human News]:C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.00330499,"(-0.005, 0.012)",0.43060445
+,,,
+,,,
+loyalty,,,
+Intercept,0.128967474,"(0.128, 0.130)",0
+C(Source)[T.Human News],-0.011638365,"(-0.014, -0.010)",5.1425E-32
+C(Gender)[T.Woman],-0.00310274,"(-0.006, -0.000)",0.033357276
+C(Domination)[T.woman-Dominated],0.008681024,"(0.006, 0.011)",2.74E-13
+C(Source)[T.Human News]:C(Gender)[T.Woman],0.002904429,"(-0.002, 0.008)",0.233479368
+C(Source)[T.Human News]:C(Domination)[T.woman-Dominated],-0.001574615,"(-0.005, 0.002)",0.337181167
+C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.000355328,"(-0.004, 0.005)",0.877919926
+C(Source)[T.Human News]:C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.002914063,"(-0.004, 0.010)",0.415721167
+,,,
+,,,
+authority,,,
+Intercept,0.120892782,"(0.119, 0.122)",0
+C(Source)[T.Human News],-0.001205042,"(-0.003, 0.001)",0.229291828
+C(Gender)[T.Woman],-0.003995089,"(-0.007, -0.001)",0.006911429
+C(Domination)[T.woman-Dominated],0.001464338,"(-0.001, 0.004)",0.224312579
+C(Source)[T.Human News]:C(Gender)[T.Woman],0.004517827,"(-0.000, 0.009)",0.067675341
+C(Source)[T.Human News]:C(Domination)[T.woman-Dominated],0.000625414,"(-0.003, 0.004)",0.707046715
+C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.002786,"(-0.002, 0.007)",0.235070798
+C(Source)[T.Human News]:C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.000615573,"(-0.007, 0.008)",0.865403616
+,,,
+,,,
+sanctity,,,
+Intercept,0.127026705,"(0.125, 0.129)",0
+C(Source)[T.Human News],-0.002898217,"(-0.005, -0.001)",0.011485465
+C(Gender)[T.Woman],-0.003534094,"(-0.007, -0.000)",0.0367275
+C(Domination)[T.woman-Dominated],0.001710867,"(-0.001, 0.004)",0.214570832
+C(Source)[T.Human News]:C(Gender)[T.Woman],0.003337043,"(-0.002, 0.009)",0.238075024
+C(Source)[T.Human News]:C(Domination)[T.woman-Dominated],-0.000256732,"(-0.004, 0.003)",0.892717848
+C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.000713802,"(-0.005, 0.006)",0.790279608
+C(Source)[T.Human News]:C(Gender)[T.Woman]:C(Domination)[T.woman-Dominated],0.003386297,"(-0.005, 0.012)",0.415007825
